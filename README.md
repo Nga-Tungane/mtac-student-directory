@@ -44,10 +44,26 @@ Copy the template and paste it **below** the `<!-- ADD YOUR CARD BELOW THIS LINE
 </a>
 ```
 
-- **href** - link to your website (use `#` if you don't have one)
+- **href** - link to your website (see below for how to set this up)
 - **src** - path to your photo in the `images/` folder
 - **alt** - "Photo of Your Name"
 - **student-name** - your name
+
+#### Linking to your personal website
+
+If you have your own website in a GitHub repo, you can host it for free using **GitHub Pages** and link to it from your card.
+
+1. Go to your website repo on GitHub (e.g. `github.com/jane-doe/my-website`)
+2. Click **Settings** > **Pages** (in the left sidebar)
+3. Under **Source**, select **Deploy from a branch**
+4. Choose your **main** (or **master**) branch and click **Save**
+5. After a minute or two, your site will be live at:
+   ```
+   https://jane-doe.github.io/my-website/
+   ```
+6. Use that URL as the `href` in your student card
+
+If you don't have a website yet, just use `#` as the href for now — you can update it later.
 
 ### 5. Commit and push
 
